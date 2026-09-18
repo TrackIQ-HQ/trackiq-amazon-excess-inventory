@@ -4,7 +4,7 @@
   "category": "inventory",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Finds the Amazon inventory sitting too long \u2014 products with cover far beyond target, stock stranded on SKUs that no longer sell, and unfulfillable units \u2014 and ranks them by capital tied up, with a recommendation per product to discount, advertise, bundle, remove or write off. Use when the user asks about excess inventory, overstock, aged inventory, slow-moving stock, dead stock, capital tied up in",
+  "summary": "Finds the Amazon inventory sitting too long \u2014 products with cover far beyond target, stock stranded on SKUs that no longer sell, and unfulfillable units \u2014 and ranks them by capital tied up, with a recommendation per product to discount, advertise, bundle, remove or write off.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [

@@ -1,0 +1,36 @@
+{
+  "name": "trackiq-amazon-excess-inventory",
+  "title": "TrackIQ: Amazon Excess and Aged Inventory Plan",
+  "category": "inventory",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Finds the Amazon inventory sitting too long \u2014 products with cover far beyond target, stock stranded on SKUs that no longer sell, and unfulfillable units \u2014 and ranks them by capital tied up, with a recommendation per product to discount, advertise, bundle, remove or write off. Use when the user asks about excess inventory, overstock, aged inventory, slow-moving stock, dead stock, capital tied up in",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_inventory_snapshot",
+      "get_product_ads",
+      "get_product_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-excess-inventory",
+  "license": "MIT"
+}

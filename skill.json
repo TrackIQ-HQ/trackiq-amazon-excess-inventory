@@ -2,8 +2,8 @@
   "name": "trackiq-amazon-excess-inventory",
   "title": "TrackIQ: Amazon Excess and Aged Inventory Plan",
   "category": "inventory",
-  "version": "1.0.0",
-  "updated": "2026-09-18",
+  "version": "1.0.1",
+  "updated": "2026-10-06",
   "summary": "Finds the Amazon inventory sitting too long \u2014 products with cover far beyond target, stock stranded on SKUs that no longer sell, and unfulfillable units \u2014 and ranks them by capital tied up, with a recommendation per product to discount, advertise, bundle, remove or write off.",
   "changelog": "First public release.",
   "requires": {
